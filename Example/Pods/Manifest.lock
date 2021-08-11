@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaiduMapEmbedSdk: 1bf64f83dcc92ee1711e7a96a6df9f561792017f
+  BaiduMapEmbedSdk: 8642bc85d98cbebbb8f7d8af703011c4ccea849e
 
 PODFILE CHECKSUM: 0d4ef8e9d816cf40529ebf3be3e592f86b9c1423
 

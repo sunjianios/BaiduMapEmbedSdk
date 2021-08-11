@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BaiduMapEmbedSdk/Classes/**/*",
+  "source_files": "BaiduMapEmbedSdk/Classes/*",
   "public_header_files": "BaiduMapEmbedSdk/Classes/*.h",
   "resource_bundles": {
     "BaiduMapEmbedSdk": [

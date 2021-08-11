@@ -11,6 +11,8 @@
 #endif
 
 #import "BaiduMapSdkTest.h"
+#import "MKCustomUserCell.h"
+#import "MKCustomUserView.h"
 
 FOUNDATION_EXPORT double BaiduMapEmbedSdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaiduMapEmbedSdkVersionString[];
