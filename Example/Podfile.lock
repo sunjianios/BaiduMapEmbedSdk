@@ -1,5 +1,5 @@
 PODS:
-  - BaiduMapEmbedSdk (0.2.0)
+  - BaiduMapEmbedSdk (0.3.0)
 
 DEPENDENCIES:
   - BaiduMapEmbedSdk (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaiduMapEmbedSdk: 3bec97cde215545b5deb344be6195fcbfe120032
+  BaiduMapEmbedSdk: 1bf64f83dcc92ee1711e7a96a6df9f561792017f
 
 PODFILE CHECKSUM: 0d4ef8e9d816cf40529ebf3be3e592f86b9c1423
 

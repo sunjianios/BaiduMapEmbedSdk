@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaiduMapEmbedSdk'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'BaiduMapEmbedSdk: 百度地图静态库包装成动态库. 测试'
 
 # This description is used to generate tags and improve search results.

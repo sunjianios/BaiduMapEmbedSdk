@@ -1,6 +1,6 @@
 {
   "name": "BaiduMapEmbedSdk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "BaiduMapEmbedSdk: 百度地图静态库包装成动态库. 测试",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sunjianios/BaiduMapEmbedSdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sunjianios/BaiduMapEmbedSdk.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
