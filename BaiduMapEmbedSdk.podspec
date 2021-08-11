@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BaiduMapEmbedSdk'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BaiduMapEmbedSdk.'
+  s.summary          = 'BaiduMapEmbedSdk: 百度地图静态库包装成动态库. 测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,29 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/irobot_apple@163.com/BaiduMapEmbedSdk'
+  s.homepage         = 'https://github.com/sunjianios/BaiduMapEmbedSdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'irobot_apple@163.com' => '1257134473@qq.com' }
-  s.source           = { :git => 'https://github.com/irobot_apple@163.com/BaiduMapEmbedSdk.git', :tag => s.version.to_s }
+  s.author           = { 'sunjianios' => '1257134473@qq.com' }
+  s.source           = { :git => 'https://github.com/sunjianios/BaiduMapEmbedSdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BaiduMapEmbedSdk/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BaiduMapEmbedSdk' => ['BaiduMapEmbedSdk/Assets/*.png']
-  # }
+  s.public_header_files = 'BaiduMapEmbedSdk/Classes/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.resource_bundles = {
+    'BaiduMapEmbedSdk' => ['BaiduMapEmbedSdk/Assets/*']
+  }
+  s.resources = "BaiduMapEmbedSdk/Assets2/*"
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  #指定framework
+  s.vendored_frameworks = 'BaiduMapEmbedSdk/Classes/*.framework'
+  #指定.a
+  s.vendored_libraries = 'BaiduMapEmbedSdk/Classes/*.a'
+
 end

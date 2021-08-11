@@ -1,6 +1,6 @@
 # BaiduMapEmbedSdk
 
-[![CI Status](https://img.shields.io/travis/irobot_apple@163.com/BaiduMapEmbedSdk.svg?style=flat)](https://travis-ci.org/irobot_apple@163.com/BaiduMapEmbedSdk)
+[![CI Status](https://img.shields.io/travis/sunjianios/BaiduMapEmbedSdk.svg?style=flat)](https://travis-ci.org/sunjianios/BaiduMapEmbedSdk)
 [![Version](https://img.shields.io/cocoapods/v/BaiduMapEmbedSdk.svg?style=flat)](https://cocoapods.org/pods/BaiduMapEmbedSdk)
 [![License](https://img.shields.io/cocoapods/l/BaiduMapEmbedSdk.svg?style=flat)](https://cocoapods.org/pods/BaiduMapEmbedSdk)
 [![Platform](https://img.shields.io/cocoapods/p/BaiduMapEmbedSdk.svg?style=flat)](https://cocoapods.org/pods/BaiduMapEmbedSdk)
@@ -22,7 +22,7 @@ pod 'BaiduMapEmbedSdk'
 
 ## Author
 
-irobot_apple@163.com, 1257134473@qq.com
+sunjianios, 1257134473@qq.com
 
 ## License
 

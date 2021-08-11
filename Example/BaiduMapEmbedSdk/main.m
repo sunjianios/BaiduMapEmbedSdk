@@ -2,8 +2,8 @@
 //  main.m
 //  BaiduMapEmbedSdk
 //
-//  Created by irobot_apple@163.com on 08/11/2021.
-//  Copyright (c) 2021 irobot_apple@163.com. All rights reserved.
+//  Created by sunjianios on 08/11/2021.
+//  Copyright (c) 2021 sunjianios. All rights reserved.
 //
 
 @import UIKit;

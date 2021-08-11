@@ -1,0 +1,16 @@
+PODS:
+  - BaiduMapEmbedSdk (0.1.0)
+
+DEPENDENCIES:
+  - BaiduMapEmbedSdk (from `../`)
+
+EXTERNAL SOURCES:
+  BaiduMapEmbedSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaiduMapEmbedSdk: 70e446375d651a20bf6e18c1a646c319489e4fb7
+
+PODFILE CHECKSUM: 0d4ef8e9d816cf40529ebf3be3e592f86b9c1423
+
+COCOAPODS: 1.10.2
