@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaiduMapEmbedSdk'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'BaiduMapEmbedSdk: 百度地图静态库包装成动态库. 测试'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
   s.source_files = 'BaiduMapEmbedSdk/Classes/*'
   s.public_header_files = 'BaiduMapEmbedSdk/Classes/*.h'
 
-  s.resource_bundles = {
-    'BaiduMapEmbedSdk' => ['BaiduMapEmbedSdk/Assets/*']
-  }
+#  s.resource_bundles = {
+#    'BaiduMapEmbedSdk' => ['BaiduMapEmbedSdk/Assets/*']
+#  }
 #  s.resource_bundles = {
 #    'BaiduMapEmbedSdk' => ['BaiduMapEmbedSdk/Assets/*.{png, xib, bundle}']
 #  }
