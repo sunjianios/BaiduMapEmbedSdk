@@ -6,7 +6,10 @@
 //
 
 #import "BaiduMapSdkTest.h"
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
 
 @implementation BaiduMapSdkTest
-
+{
+    BMKMapManager *tempVar1;//BaiduMapAPI_Base
+}
 @end

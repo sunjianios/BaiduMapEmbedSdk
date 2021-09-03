@@ -7,37 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D8A5911C75F4E246EDCE44CFC7E7BEC /* take_pic_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6DF4E9E69672B4693562BBA8260E1 /* take_pic_btn@2x.png */; };
-		17C931591C84BD5DE34F1A9FD70CAA09 /* MKCustomUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF7E2FDCB8863F430806FAAD75E69E /* MKCustomUserView.m */; };
-		26CBEFA229E2B7E6D18D9B7777646C21 /* BaiduMapEmbedSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FF212D0625CAF900C1BA83A63CF6EC /* BaiduMapEmbedSdk-dummy.m */; };
-		32AB9235A52ED3DD2088754ED1E31BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		37E16DA5FA34A957462407505FBB2316 /* BaiduMapEmbedSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29070990FD11A4FABFCC19E7A461C47F /* BaiduMapEmbedSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39CB22FEABCB6FFFDEF80CBA9A5A4C41 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 331BBF4A1CE9C0338FAD1B159B1C4F7D /* mapapi.bundle */; };
-		4CE3D764D0C7BA217FEF0CF268D3677F /* MKCustomUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AF2281529A021487D815E034052F27 /* MKCustomUserCell.m */; };
-		4F24D5689396E4EC289C63B39DF35AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		53460F7B55780323F3DC23AFE7067043 /* BaiduMapSdkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3222ACBB4E9A6E31DC1E7E62D6CA5FCD /* BaiduMapSdkTest.m */; };
+		03910FEAA1D91EC15139ADADC3B833C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697603BA94B1A58734C2AB598C46CB0 /* UIKit.framework */; };
+		07301D3945757B8D53E84A6E1C1C8BEC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE7ABA5D24938FCEE9174947C25D557 /* MessageUI.framework */; };
+		09857CDC564D7E7FE398F25BD4997290 /* take_pic_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE68341AA91E210BF3D1358B60CA53D4 /* take_pic_btn@3x.png */; };
+		0A60B5AA13F2C92125E9453ECE0A376E /* BaiduMapSdkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 542C3EF0654D73B9782BC0A6BE15D6EA /* BaiduMapSdkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF49DC924AC0A6E090DBADE7222C579 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277846DAF82CA714FFE928ACDF8BC0A0 /* Security.framework */; };
+		2318633049F12AB5E1FD92022E7C1413 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF61CD27D50B8F395B6942B9E653420 /* Accelerate.framework */; };
+		32AB9235A52ED3DD2088754ED1E31BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10D85CD8611E1186E64A09686323926 /* Foundation.framework */; };
+		373F4AAB5516C5B07ADC4251FC7021EC /* MKCustomUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = B27D2D45D662C86E0A2BF9FD4DBB7B6B /* MKCustomUserView.m */; };
+		4305F01A2BBB3C1031A5F23D7EC9EDB5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A701DAAEE1B806DEF3F8A10EA34A9E8A /* AssetsLibrary.framework */; };
+		4F24D5689396E4EC289C63B39DF35AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10D85CD8611E1186E64A09686323926 /* Foundation.framework */; };
+		4F5536100A6DA82B2D58B2E8573EF6B4 /* BaiduMapSdkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16203C94B22ACFD7320E325AFB4BB823 /* BaiduMapSdkTest.m */; };
+		61A025D964B930049720E66102650A11 /* MKCustomUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2799B5FAD9EB9B97A051F756F9071E90 /* MKCustomUserView.xib */; };
+		6971C49A5347B37ABA1EE7E91237754C /* MKCustomUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A03C9CD84526F04F1A418FE811D54FF /* MKCustomUserCell.xib */; };
+		72EDF05143CBD6BBAC09FF528C6D139C /* BaiduMapEmbedSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C5B162E40A373A8B7787DF5AF381AE /* BaiduMapEmbedSdk-dummy.m */; };
 		730512AABBF7C536C35D930C7144BD05 /* Pods-BaiduMapEmbedSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBC54A8947872B859B1FB633DD5797 /* Pods-BaiduMapEmbedSdk_Example-dummy.m */; };
-		7E4EC1B2AB1D6B40176F4081604AB127 /* MKCustomUserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3975F2BCEDC617E994790642B3A3D75E /* MKCustomUserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EB430BC95EAE57753DDEB078177BABA /* libssl.a in Sources */ = {isa = PBXBuildFile; fileRef = 67635A922C929307D64ADC1B37AF1ABA /* libssl.a */; };
-		9035771EC564EF582FD6E6B78D48B6EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AA895E054E4CF3F7BF5C1B3256EA6AF9 /* BaiduMapSdkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 701C4BBD1B4FD5DEE3A3F5F07820288D /* BaiduMapSdkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B5EF0657B78713E0FDD8C0194E9D8A /* BaiduMapEmbedSdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E76C81DA85D3BB9856CABD9B3AF96F39 /* BaiduMapEmbedSdk.bundle */; };
+		783AA64ADAA725A8173D16B48D6CF8D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F84F60A106C33A9A88594CC03515CD /* QuartzCore.framework */; };
+		78C50BCBF33B5ACCC3A5A868ED2B80F4 /* MKCustomUserView.h in Headers */ = {isa = PBXBuildFile; fileRef = 500008FBAC35172BC194DB9950751C72 /* MKCustomUserView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E2979635CB8E3AB0163C414D022943 /* take_pic_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8BF07AB8690F1CD9C2AA6B574863B2E /* take_pic_btn@2x.png */; };
+		7C8DAD02DA0E1AB6F0F7BB9288E6D63F /* MKCustomUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95844C6DA39C93A9DF4ACD5DD282F8E3 /* MKCustomUserCell.m */; };
+		94FC19BF03ACFC13621E55BF4E7A1576 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A743D931D3E7DCEE954240FF9D2B0E89 /* CoreGraphics.framework */; };
+		95668B55E1D1E74394FA8C9F1FADCCBF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B72BAF70B844DC8F596328B6B9593AB /* CoreTelephony.framework */; };
+		969C7E030BD7753FA7E5779B673D4E28 /* BaiduMapEmbedSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 459047055F8DEAFB41A2A45ABFE313CD /* BaiduMapEmbedSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A368030DBB1359F0DC480A24B8055FB8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7507C61271DF8E9A1A236C9AD197AD5A /* ExternalAccessory.framework */; };
+		A7C2D77A0F9A5DAEC0009A90B2D2C128 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408FC3FFA26853D2D645FE9564A8573F /* AdSupport.framework */; };
+		A976DD240356A0E5659DE83FE0797B96 /* slider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C840841337A8582B873C7867F964FFE4 /* slider@3x.png */; };
+		AD97ABB17F29EB368358B05256B99D9F /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EBF495E1116E69D0C84D19511EA65C /* slider@2x.png */; };
+		AECC7BE70A92081E652CC1BCFAE1DA74 /* MKCustomUserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B1104E0CCC78C9A30EFD6177D1872D17 /* MKCustomUserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5B0CC9B6449B25FB3879B2C5E2C2054 /* Pods-BaiduMapEmbedSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD28F02FBC950A4F136DF977F8756615 /* Pods-BaiduMapEmbedSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B995E1B695465EF19AC76FE013007176 /* MKCustomUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E1E1FAB33A55A87DE3845327D83659 /* MKCustomUserView.xib */; };
 		C633B8A7BF36227DE109CE434EC3AED4 /* Pods-BaiduMapEmbedSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9EBD8EF889B4046132C12AF40C46BF /* Pods-BaiduMapEmbedSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7699621EABE3E769A4935E8E4056523 /* take_pic_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E450B80EABFC4DAF1875334ACC594381 /* take_pic_btn@3x.png */; };
-		D1504E930DDD1F4DA587CBC40FDD6366 /* MKCustomUserView.h in Headers */ = {isa = PBXBuildFile; fileRef = F927911308E0AE532E068D4E451B92E0 /* MKCustomUserView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4D58393D035669564F6DA37977D62F /* BaiduMapEmbedSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEB231ED99AB13244278A308E2DAC0D /* BaiduMapEmbedSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC65B55CF4954ABD9CB02D45316A5A7D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CCB03B299E41FB2DD0E166FD098EAC /* OpenGLES.framework */; };
+		D36C048FFEDD1A537B1A0A339178E105 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BE29B0A568D881C24B153DB1036878C /* AMap.bundle */; };
+		D9A0B76E7BBD7E9912E1F0843BF50348 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91EB2AB134210390BF65AFDCDF9494 /* CoreLocation.framework */; };
+		DB8003ADD1D909CD7E86208FE52F2736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10D85CD8611E1186E64A09686323926 /* Foundation.framework */; };
+		DD6C164AD22DB67E43CBBE0B7CA3D23B /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0FEC7D4B6C6469DB7E55BE7308D0493 /* mapapi.bundle */; };
+		F08AA402E09769B2369E8393E8F8ED68 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7813F1EA9EABC76FE97BC33D39143F /* MobileCoreServices.framework */; };
 		FC2F5D96A05361C113E45ACDE24F0205 /* Pods-BaiduMapEmbedSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EAD6C81846127A1E9CA996A7FE7C0D /* Pods-BaiduMapEmbedSdk_Tests-dummy.m */; };
+		FEE2EB70607F71DF481E1D034F1B00AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DD5DAADD6F3A8A2F1280E7B0132C98 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AB26915413BB0B35FB156FAD269899F /* PBXContainerItemProxy */ = {
+		26CDA6B33E835BF7E6F077A4F514C024 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 62224BA772207418D96CF265A51A9DFF;
 			remoteInfo = BaiduMapEmbedSdk;
 		};
-		9D447D6D8E4E3230D7581EAC7300AD3A /* PBXContainerItemProxy */ = {
+		8D9C81AE4D5C24A4EC82A91BC4741BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEAD111821C8746D60F46BAA686C7D41;
+			remoteInfo = "BaiduMapEmbedSdk-BaiduMapEmbedSdk";
+		};
+		D92779790D14B1A1967E51FBB7BCF432 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,53 +73,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EF7E2FDCB8863F430806FAAD75E69E /* MKCustomUserView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKCustomUserView.m; path = BaiduMapEmbedSdk/Classes/MKCustomUserView.m; sourceTree = "<group>"; };
-		0E814EBC0EF8ECDBA52C8CFC9DC63403 /* Pods_BaiduMapEmbedSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaiduMapEmbedSdk_Example.framework; path = "Pods-BaiduMapEmbedSdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C5B162E40A373A8B7787DF5AF381AE /* BaiduMapEmbedSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaiduMapEmbedSdk-dummy.m"; sourceTree = "<group>"; };
+		0B72BAF70B844DC8F596328B6B9593AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		0E814EBC0EF8ECDBA52C8CFC9DC63403 /* Pods_BaiduMapEmbedSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiduMapEmbedSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1101C72D883D9702B4437B8D949A3509 /* Pods-BaiduMapEmbedSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaiduMapEmbedSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		16203C94B22ACFD7320E325AFB4BB823 /* BaiduMapSdkTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaiduMapSdkTest.m; path = BaiduMapEmbedSdk/Classes/BaiduMapSdkTest.m; sourceTree = "<group>"; };
 		17A51A40306C56F2C2727E9E6E98D806 /* Pods-BaiduMapEmbedSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaiduMapEmbedSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		250265CE895E2FDE410246CE28ED8C6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		29070990FD11A4FABFCC19E7A461C47F /* BaiduMapEmbedSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaiduMapEmbedSdk-umbrella.h"; sourceTree = "<group>"; };
+		1BF61CD27D50B8F395B6942B9E653420 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		277846DAF82CA714FFE928ACDF8BC0A0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2799B5FAD9EB9B97A051F756F9071E90 /* MKCustomUserView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKCustomUserView.xib; path = BaiduMapEmbedSdk/Assets2/MKCustomUserView.xib; sourceTree = "<group>"; };
+		2D40BD4327DC3DB98858BF0A4E292553 /* BaiduMapEmbedSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapEmbedSdk.release.xcconfig; sourceTree = "<group>"; };
 		2D6213E2C6CA55AF64F89A558B84E0E1 /* Pods-BaiduMapEmbedSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaiduMapEmbedSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3222ACBB4E9A6E31DC1E7E62D6CA5FCD /* BaiduMapSdkTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaiduMapSdkTest.m; path = BaiduMapEmbedSdk/Classes/BaiduMapSdkTest.m; sourceTree = "<group>"; };
-		331BBF4A1CE9C0338FAD1B159B1C4F7D /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapEmbedSdk/Assets2/mapapi.bundle; sourceTree = "<group>"; };
+		2DEB231ED99AB13244278A308E2DAC0D /* BaiduMapEmbedSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMapEmbedSdk.h; path = BaiduMapEmbedSdk/Classes/BaiduMapEmbedSdk.h; sourceTree = "<group>"; };
+		33DD5DAADD6F3A8A2F1280E7B0132C98 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		384923C892C50E458D565809A9F43587 /* Pods-BaiduMapEmbedSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaiduMapEmbedSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3975F2BCEDC617E994790642B3A3D75E /* MKCustomUserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKCustomUserCell.h; path = BaiduMapEmbedSdk/Classes/MKCustomUserCell.h; sourceTree = "<group>"; };
-		39E1E1FAB33A55A87DE3845327D83659 /* MKCustomUserView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKCustomUserView.xib; path = BaiduMapEmbedSdk/Assets2/MKCustomUserView.xib; sourceTree = "<group>"; };
-		62C9AA6FF1F9EB05A5D0646CA18AEFB4 /* BaiduMapEmbedSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BaiduMapEmbedSdk-Info.plist"; sourceTree = "<group>"; };
-		63DEF8D19F261A632907D4CE1C7802B0 /* BaiduMapEmbedSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapEmbedSdk.debug.xcconfig; sourceTree = "<group>"; };
+		408FC3FFA26853D2D645FE9564A8573F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		42D73DE6B56AC4F35CB859E4574F6D85 /* ResourceBundle-BaiduMapEmbedSdk-BaiduMapEmbedSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BaiduMapEmbedSdk-BaiduMapEmbedSdk-Info.plist"; sourceTree = "<group>"; };
+		43D027C71B140D1B77576A50749DA8EF /* BaiduMapEmbedSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BaiduMapEmbedSdk-Info.plist"; sourceTree = "<group>"; };
+		455EEACFF2535E709CF357786EE6BF98 /* BaiduMapEmbedSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaiduMapEmbedSdk.modulemap; sourceTree = "<group>"; };
+		459047055F8DEAFB41A2A45ABFE313CD /* BaiduMapEmbedSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaiduMapEmbedSdk-umbrella.h"; sourceTree = "<group>"; };
+		500008FBAC35172BC194DB9950751C72 /* MKCustomUserView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKCustomUserView.h; path = BaiduMapEmbedSdk/Classes/MKCustomUserView.h; sourceTree = "<group>"; };
+		542C3EF0654D73B9782BC0A6BE15D6EA /* BaiduMapSdkTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMapSdkTest.h; path = BaiduMapEmbedSdk/Classes/BaiduMapSdkTest.h; sourceTree = "<group>"; };
+		5A03C9CD84526F04F1A418FE811D54FF /* MKCustomUserCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKCustomUserCell.xib; path = BaiduMapEmbedSdk/Assets/MKCustomUserCell.xib; sourceTree = "<group>"; };
+		5A4C25B8E0AF98746DADEED604BA24DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A7813F1EA9EABC76FE97BC33D39143F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		61650626344958D0518FF193C43F0F38 /* BaiduMapEmbedSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaiduMapEmbedSdk-prefix.pch"; sourceTree = "<group>"; };
 		65D5D9EB79D000FBA9BD038DF157F4C8 /* Pods-BaiduMapEmbedSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaiduMapEmbedSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		67635A922C929307D64ADC1B37AF1ABA /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapEmbedSdk/Classes/libssl.a; sourceTree = "<group>"; };
 		6E9EBD8EF889B4046132C12AF40C46BF /* Pods-BaiduMapEmbedSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaiduMapEmbedSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		701C4BBD1B4FD5DEE3A3F5F07820288D /* BaiduMapSdkTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMapSdkTest.h; path = BaiduMapEmbedSdk/Classes/BaiduMapSdkTest.h; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7507C61271DF8E9A1A236C9AD197AD5A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		7697603BA94B1A58734C2AB598C46CB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78BDF0D9F1BC2708208637D5C001F12D /* Pods-BaiduMapEmbedSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaiduMapEmbedSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		848D8BD6F4B32BE83B9B5F49D9D87934 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapEmbedSdk/Classes/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
-		8AA6DF4E9E69672B4693562BBA8260E1 /* take_pic_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "take_pic_btn@2x.png"; path = "BaiduMapEmbedSdk/Assets2/take_pic_btn@2x.png"; sourceTree = "<group>"; };
+		7BE7ABA5D24938FCEE9174947C25D557 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		84FF784A13082CB678CA29D7BDC0EEB6 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapEmbedSdk/Library/libcrypto.a; sourceTree = "<group>"; };
+		8BE29B0A568D881C24B153DB1036878C /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = BaiduMapEmbedSdk/Assets/AMap.bundle; sourceTree = "<group>"; };
 		8D6338F1FBFC52A5CF58C621C15F1D94 /* Pods-BaiduMapEmbedSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaiduMapEmbedSdk_Tests.modulemap"; sourceTree = "<group>"; };
-		94948973B6E824F95F3D04A8E7C8FE9C /* BaiduMapEmbedSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaiduMapEmbedSdk-prefix.pch"; sourceTree = "<group>"; };
-		98AF2281529A021487D815E034052F27 /* MKCustomUserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKCustomUserCell.m; path = BaiduMapEmbedSdk/Classes/MKCustomUserCell.m; sourceTree = "<group>"; };
+		95844C6DA39C93A9DF4ACD5DD282F8E3 /* MKCustomUserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKCustomUserCell.m; path = BaiduMapEmbedSdk/Classes/MKCustomUserCell.m; sourceTree = "<group>"; };
+		988C7A6184B3131FCAD5F9B65074596F /* BaiduMapEmbedSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapEmbedSdk.debug.xcconfig; sourceTree = "<group>"; };
 		98EAD6C81846127A1E9CA996A7FE7C0D /* Pods-BaiduMapEmbedSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaiduMapEmbedSdk_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99CCB03B299E41FB2DD0E166FD098EAC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBF7ACC4FADB2263D60A8DAA7466AC1 /* Pods-BaiduMapEmbedSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaiduMapEmbedSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FE03EE1FB6D2BE7D0C63D57BDC4CAC0 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapEmbedSdk/Library/libssl.a; sourceTree = "<group>"; };
+		A3E87C8DDED6FDB427E3BC53998D9A7C /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapEmbedSdk/Library/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		A701DAAEE1B806DEF3F8A10EA34A9E8A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		A743D931D3E7DCEE954240FF9D2B0E89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		AD28F02FBC950A4F136DF977F8756615 /* Pods-BaiduMapEmbedSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaiduMapEmbedSdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		ADD55A5C65E1DB4D20F3E400D196362A /* BaiduMapEmbedSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapEmbedSdk.release.xcconfig; sourceTree = "<group>"; };
+		B0FEC7D4B6C6469DB7E55BE7308D0493 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapEmbedSdk/Assets2/mapapi.bundle; sourceTree = "<group>"; };
+		B1104E0CCC78C9A30EFD6177D1872D17 /* MKCustomUserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKCustomUserCell.h; path = BaiduMapEmbedSdk/Classes/MKCustomUserCell.h; sourceTree = "<group>"; };
+		B27D2D45D662C86E0A2BF9FD4DBB7B6B /* MKCustomUserView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKCustomUserView.m; path = BaiduMapEmbedSdk/Classes/MKCustomUserView.m; sourceTree = "<group>"; };
 		B283DB696B1EBE4A1344FACBF6EA7605 /* Pods-BaiduMapEmbedSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaiduMapEmbedSdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		B30C753DAA84EC3EC8BDC50F5BF976CD /* Pods-BaiduMapEmbedSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaiduMapEmbedSdk_Example-Info.plist"; sourceTree = "<group>"; };
-		B75A8397B90CB24B0BBF3502EDEC33EC /* Pods_BaiduMapEmbedSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaiduMapEmbedSdk_Tests.framework; path = "Pods-BaiduMapEmbedSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB9A258560ADF616BF06AC3D97601A6 /* BaiduMapEmbedSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaiduMapEmbedSdk.framework; path = BaiduMapEmbedSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B472B7D95B43872B594FC62229C53108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B75A8397B90CB24B0BBF3502EDEC33EC /* Pods_BaiduMapEmbedSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiduMapEmbedSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EBF495E1116E69D0C84D19511EA65C /* slider@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider@2x.png"; path = "BaiduMapEmbedSdk/Assets/slider@2x.png"; sourceTree = "<group>"; };
+		BCB9A258560ADF616BF06AC3D97601A6 /* BaiduMapEmbedSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaiduMapEmbedSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE68341AA91E210BF3D1358B60CA53D4 /* take_pic_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "take_pic_btn@3x.png"; path = "BaiduMapEmbedSdk/Assets2/take_pic_btn@3x.png"; sourceTree = "<group>"; };
+		BF91EB2AB134210390BF65AFDCDF9494 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		C0888CEA5B8EE6E1B27F89C7AD5A4F28 /* BaiduMapEmbedSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BaiduMapEmbedSdk.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		C7F84F60A106C33A9A88594CC03515CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C840841337A8582B873C7867F964FFE4 /* slider@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider@3x.png"; path = "BaiduMapEmbedSdk/Assets/slider@3x.png"; sourceTree = "<group>"; };
 		DDFE7CF8813AD45C62318F59093D7315 /* Pods-BaiduMapEmbedSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaiduMapEmbedSdk_Example.modulemap"; sourceTree = "<group>"; };
-		E12653A62919EE05D9A981A785EDE9BA /* BaiduMapEmbedSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaiduMapEmbedSdk.modulemap; sourceTree = "<group>"; };
-		E450B80EABFC4DAF1875334ACC594381 /* take_pic_btn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "take_pic_btn@3x.png"; path = "BaiduMapEmbedSdk/Assets2/take_pic_btn@3x.png"; sourceTree = "<group>"; };
-		E6FF212D0625CAF900C1BA83A63CF6EC /* BaiduMapEmbedSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaiduMapEmbedSdk-dummy.m"; sourceTree = "<group>"; };
+		E10D85CD8611E1186E64A09686323926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E76C81DA85D3BB9856CABD9B3AF96F39 /* BaiduMapEmbedSdk.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMapEmbedSdk.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BF07AB8690F1CD9C2AA6B574863B2E /* take_pic_btn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "take_pic_btn@2x.png"; path = "BaiduMapEmbedSdk/Assets2/take_pic_btn@2x.png"; sourceTree = "<group>"; };
 		E9FDCDE3560DA7011327282961BE0350 /* Pods-BaiduMapEmbedSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaiduMapEmbedSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EDE1BE866D9BCD2F62C21EC01DFB7106 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F7A7FF1BC24A0DBF1C059A113A823808 /* BaiduMapEmbedSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BaiduMapEmbedSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F927911308E0AE532E068D4E451B92E0 /* MKCustomUserView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKCustomUserView.h; path = BaiduMapEmbedSdk/Classes/MKCustomUserView.h; sourceTree = "<group>"; };
 		FBDBC54A8947872B859B1FB633DD5797 /* Pods-BaiduMapEmbedSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaiduMapEmbedSdk_Example-dummy.m"; sourceTree = "<group>"; };
 		FD8E4AD842876034A58AC33679B46377 /* Pods-BaiduMapEmbedSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaiduMapEmbedSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0CE76D0355DF03B099047B6392F02F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E3CC26996303DEA76E75B02695501A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,11 +157,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C8A817041C4CD4CD089849CE68A1436 /* Frameworks */ = {
+		A31D2738637751667BE997C4E2197B1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9035771EC564EF582FD6E6B78D48B6EC /* Foundation.framework in Frameworks */,
+				2318633049F12AB5E1FD92022E7C1413 /* Accelerate.framework in Frameworks */,
+				A7C2D77A0F9A5DAEC0009A90B2D2C128 /* AdSupport.framework in Frameworks */,
+				4305F01A2BBB3C1031A5F23D7EC9EDB5 /* AssetsLibrary.framework in Frameworks */,
+				94FC19BF03ACFC13621E55BF4E7A1576 /* CoreGraphics.framework in Frameworks */,
+				D9A0B76E7BBD7E9912E1F0843BF50348 /* CoreLocation.framework in Frameworks */,
+				95668B55E1D1E74394FA8C9F1FADCCBF /* CoreTelephony.framework in Frameworks */,
+				A368030DBB1359F0DC480A24B8055FB8 /* ExternalAccessory.framework in Frameworks */,
+				DB8003ADD1D909CD7E86208FE52F2736 /* Foundation.framework in Frameworks */,
+				07301D3945757B8D53E84A6E1C1C8BEC /* MessageUI.framework in Frameworks */,
+				F08AA402E09769B2369E8393E8F8ED68 /* MobileCoreServices.framework in Frameworks */,
+				CC65B55CF4954ABD9CB02D45316A5A7D /* OpenGLES.framework in Frameworks */,
+				783AA64ADAA725A8173D16B48D6CF8D0 /* QuartzCore.framework in Frameworks */,
+				0DF49DC924AC0A6E090DBADE7222C579 /* Security.framework in Frameworks */,
+				FEE2EB70607F71DF481E1D034F1B00AC /* SystemConfiguration.framework in Frameworks */,
+				03910FEAA1D91EC15139ADADC3B833C8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,43 +190,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090112D6D83D027B90FAE020A1F8266D /* Frameworks */ = {
+		35F4D88D861B55740076268BE1E9E7AB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				848D8BD6F4B32BE83B9B5F49D9D87934 /* BaiduMapAPI_Base.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3627612DE14147A3993F107A15F1E97A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E12653A62919EE05D9A981A785EDE9BA /* BaiduMapEmbedSdk.modulemap */,
-				E6FF212D0625CAF900C1BA83A63CF6EC /* BaiduMapEmbedSdk-dummy.m */,
-				62C9AA6FF1F9EB05A5D0646CA18AEFB4 /* BaiduMapEmbedSdk-Info.plist */,
-				94948973B6E824F95F3D04A8E7C8FE9C /* BaiduMapEmbedSdk-prefix.pch */,
-				29070990FD11A4FABFCC19E7A461C47F /* BaiduMapEmbedSdk-umbrella.h */,
-				63DEF8D19F261A632907D4CE1C7802B0 /* BaiduMapEmbedSdk.debug.xcconfig */,
-				ADD55A5C65E1DB4D20F3E400D196362A /* BaiduMapEmbedSdk.release.xcconfig */,
+				455EEACFF2535E709CF357786EE6BF98 /* BaiduMapEmbedSdk.modulemap */,
+				03C5B162E40A373A8B7787DF5AF381AE /* BaiduMapEmbedSdk-dummy.m */,
+				43D027C71B140D1B77576A50749DA8EF /* BaiduMapEmbedSdk-Info.plist */,
+				61650626344958D0518FF193C43F0F38 /* BaiduMapEmbedSdk-prefix.pch */,
+				459047055F8DEAFB41A2A45ABFE313CD /* BaiduMapEmbedSdk-umbrella.h */,
+				988C7A6184B3131FCAD5F9B65074596F /* BaiduMapEmbedSdk.debug.xcconfig */,
+				2D40BD4327DC3DB98858BF0A4E292553 /* BaiduMapEmbedSdk.release.xcconfig */,
+				42D73DE6B56AC4F35CB859E4574F6D85 /* ResourceBundle-BaiduMapEmbedSdk-BaiduMapEmbedSdk-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BaiduMapEmbedSdk";
 			sourceTree = "<group>";
 		};
-		39B3EBC89E92EEAFDC43AAB74799AB3F /* Development Pods */ = {
+		39B619844DE2099BB83F235E50E7C77C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BCF5C7B676847C265F811302C969168D /* BaiduMapEmbedSdk */,
+				A4804294C47CA3FAA9D15BA82F90F680 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		4E04F9670A170933957EA224BEAFA43E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				E76C81DA85D3BB9856CABD9B3AF96F39 /* BaiduMapEmbedSdk.bundle */,
+				BCB9A258560ADF616BF06AC3D97601A6 /* BaiduMapEmbedSdk.framework */,
+				0E814EBC0EF8ECDBA52C8CFC9DC63403 /* Pods_BaiduMapEmbedSdk_Example.framework */,
+				B75A8397B90CB24B0BBF3502EDEC33EC /* Pods_BaiduMapEmbedSdk_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D68C63805CA67307F1B4FD11AB3315 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0888CEA5B8EE6E1B27F89C7AD5A4F28 /* BaiduMapEmbedSdk.podspec */,
+				B472B7D95B43872B594FC62229C53108 /* LICENSE */,
+				5A4C25B8E0AF98746DADEED604BA24DD /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5929A15A613D57293F35D7930AD709C7 /* Targets Support Files */ = {
@@ -169,36 +244,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		648291F3DEF0F113A96897CC26C98C65 /* Products */ = {
+		A4804294C47CA3FAA9D15BA82F90F680 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BCB9A258560ADF616BF06AC3D97601A6 /* BaiduMapEmbedSdk.framework */,
-				0E814EBC0EF8ECDBA52C8CFC9DC63403 /* Pods_BaiduMapEmbedSdk_Example.framework */,
-				B75A8397B90CB24B0BBF3502EDEC33EC /* Pods_BaiduMapEmbedSdk_Tests.framework */,
+				1BF61CD27D50B8F395B6942B9E653420 /* Accelerate.framework */,
+				408FC3FFA26853D2D645FE9564A8573F /* AdSupport.framework */,
+				A701DAAEE1B806DEF3F8A10EA34A9E8A /* AssetsLibrary.framework */,
+				A743D931D3E7DCEE954240FF9D2B0E89 /* CoreGraphics.framework */,
+				BF91EB2AB134210390BF65AFDCDF9494 /* CoreLocation.framework */,
+				0B72BAF70B844DC8F596328B6B9593AB /* CoreTelephony.framework */,
+				7507C61271DF8E9A1A236C9AD197AD5A /* ExternalAccessory.framework */,
+				E10D85CD8611E1186E64A09686323926 /* Foundation.framework */,
+				7BE7ABA5D24938FCEE9174947C25D557 /* MessageUI.framework */,
+				5A7813F1EA9EABC76FE97BC33D39143F /* MobileCoreServices.framework */,
+				99CCB03B299E41FB2DD0E166FD098EAC /* OpenGLES.framework */,
+				C7F84F60A106C33A9A88594CC03515CD /* QuartzCore.framework */,
+				277846DAF82CA714FFE928ACDF8BC0A0 /* Security.framework */,
+				33DD5DAADD6F3A8A2F1280E7B0132C98 /* SystemConfiguration.framework */,
+				7697603BA94B1A58734C2AB598C46CB0 /* UIKit.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		BCF5C7B676847C265F811302C969168D /* BaiduMapEmbedSdk */ = {
+		B2E6955492484A230AA25CD0BBE73A5E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				701C4BBD1B4FD5DEE3A3F5F07820288D /* BaiduMapSdkTest.h */,
-				3222ACBB4E9A6E31DC1E7E62D6CA5FCD /* BaiduMapSdkTest.m */,
-				67635A922C929307D64ADC1B37AF1ABA /* libssl.a */,
-				331BBF4A1CE9C0338FAD1B159B1C4F7D /* mapapi.bundle */,
-				3975F2BCEDC617E994790642B3A3D75E /* MKCustomUserCell.h */,
-				98AF2281529A021487D815E034052F27 /* MKCustomUserCell.m */,
-				F927911308E0AE532E068D4E451B92E0 /* MKCustomUserView.h */,
-				03EF7E2FDCB8863F430806FAAD75E69E /* MKCustomUserView.m */,
-				39E1E1FAB33A55A87DE3845327D83659 /* MKCustomUserView.xib */,
-				8AA6DF4E9E69672B4693562BBA8260E1 /* take_pic_btn@2x.png */,
-				E450B80EABFC4DAF1875334ACC594381 /* take_pic_btn@3x.png */,
-				090112D6D83D027B90FAE020A1F8266D /* Frameworks */,
-				C3E42B3DEF6480EBBB425FDA21A4F2D8 /* Pod */,
-				3627612DE14147A3993F107A15F1E97A /* Support Files */,
+				C3867CBA80E12721701E1634DB575BF8 /* BaiduMapEmbedSdk */,
 			);
-			name = BaiduMapEmbedSdk;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BF64096B7E6DEC8FD5C7617F4FFC1686 /* Pods-BaiduMapEmbedSdk_Example */ = {
@@ -218,33 +291,51 @@
 			path = "Target Support Files/Pods-BaiduMapEmbedSdk_Example";
 			sourceTree = "<group>";
 		};
-		C3E42B3DEF6480EBBB425FDA21A4F2D8 /* Pod */ = {
+		C3867CBA80E12721701E1634DB575BF8 /* BaiduMapEmbedSdk */ = {
 			isa = PBXGroup;
 			children = (
-				F7A7FF1BC24A0DBF1C059A113A823808 /* BaiduMapEmbedSdk.podspec */,
-				250265CE895E2FDE410246CE28ED8C6B /* LICENSE */,
-				EDE1BE866D9BCD2F62C21EC01DFB7106 /* README.md */,
+				8BE29B0A568D881C24B153DB1036878C /* AMap.bundle */,
+				2DEB231ED99AB13244278A308E2DAC0D /* BaiduMapEmbedSdk.h */,
+				542C3EF0654D73B9782BC0A6BE15D6EA /* BaiduMapSdkTest.h */,
+				16203C94B22ACFD7320E325AFB4BB823 /* BaiduMapSdkTest.m */,
+				B0FEC7D4B6C6469DB7E55BE7308D0493 /* mapapi.bundle */,
+				B1104E0CCC78C9A30EFD6177D1872D17 /* MKCustomUserCell.h */,
+				95844C6DA39C93A9DF4ACD5DD282F8E3 /* MKCustomUserCell.m */,
+				5A03C9CD84526F04F1A418FE811D54FF /* MKCustomUserCell.xib */,
+				500008FBAC35172BC194DB9950751C72 /* MKCustomUserView.h */,
+				B27D2D45D662C86E0A2BF9FD4DBB7B6B /* MKCustomUserView.m */,
+				2799B5FAD9EB9B97A051F756F9071E90 /* MKCustomUserView.xib */,
+				B8EBF495E1116E69D0C84D19511EA65C /* slider@2x.png */,
+				C840841337A8582B873C7867F964FFE4 /* slider@3x.png */,
+				E8BF07AB8690F1CD9C2AA6B574863B2E /* take_pic_btn@2x.png */,
+				BE68341AA91E210BF3D1358B60CA53D4 /* take_pic_btn@3x.png */,
+				C87FF37F264C843D46E52E397D0D3C20 /* Frameworks */,
+				56D68C63805CA67307F1B4FD11AB3315 /* Pod */,
+				35F4D88D861B55740076268BE1E9E7AB /* Support Files */,
 			);
-			name = Pod;
+			name = BaiduMapEmbedSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C87FF37F264C843D46E52E397D0D3C20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E87C8DDED6FDB427E3BC53998D9A7C /* BaiduMapAPI_Base.framework */,
+				84FF784A13082CB678CA29D7BDC0EEB6 /* libcrypto.a */,
+				9FE03EE1FB6D2BE7D0C63D57BDC4CAC0 /* libssl.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				39B3EBC89E92EEAFDC43AAB74799AB3F /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				648291F3DEF0F113A96897CC26C98C65 /* Products */,
+				B2E6955492484A230AA25CD0BBE73A5E /* Development Pods */,
+				39B619844DE2099BB83F235E50E7C77C /* Frameworks */,
+				4E04F9670A170933957EA224BEAFA43E /* Products */,
 				5929A15A613D57293F35D7930AD709C7 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E8BB66E83663863EEF795F330A7631F2 /* Pods-BaiduMapEmbedSdk_Tests */ = {
@@ -266,22 +357,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1C860320EC8AE23F0A5AC0033ED5B7ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969C7E030BD7753FA7E5779B673D4E28 /* BaiduMapEmbedSdk-umbrella.h in Headers */,
+				CB4D58393D035669564F6DA37977D62F /* BaiduMapEmbedSdk.h in Headers */,
+				0A60B5AA13F2C92125E9453ECE0A376E /* BaiduMapSdkTest.h in Headers */,
+				AECC7BE70A92081E652CC1BCFAE1DA74 /* MKCustomUserCell.h in Headers */,
+				78C50BCBF33B5ACCC3A5A868ED2B80F4 /* MKCustomUserView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2234FAB4598EA2598BB5F82E53A2D76B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C633B8A7BF36227DE109CE434EC3AED4 /* Pods-BaiduMapEmbedSdk_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41DA66C8261D27F1DD47FF8BA5427C9F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37E16DA5FA34A957462407505FBB2316 /* BaiduMapEmbedSdk-umbrella.h in Headers */,
-				AA895E054E4CF3F7BF5C1B3256EA6AF9 /* BaiduMapSdkTest.h in Headers */,
-				7E4EC1B2AB1D6B40176F4081604AB127 /* MKCustomUserCell.h in Headers */,
-				D1504E930DDD1F4DA587CBC40FDD6366 /* MKCustomUserView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +400,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C83ACDDB1B5D2E3F4AC7541064A7133D /* PBXTargetDependency */,
+				B5A4D3B5DBCEC640C36BAE235194E0F5 /* PBXTargetDependency */,
 			);
 			name = "Pods-BaiduMapEmbedSdk_Example";
 			productName = "Pods-BaiduMapEmbedSdk_Example";
@@ -317,16 +409,17 @@
 		};
 		62224BA772207418D96CF265A51A9DFF /* BaiduMapEmbedSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0D08E72AB22AEB281BDB1B6B7A97E6C /* Build configuration list for PBXNativeTarget "BaiduMapEmbedSdk" */;
+			buildConfigurationList = C61FC692055D9309F4319BCB4B1FDF27 /* Build configuration list for PBXNativeTarget "BaiduMapEmbedSdk" */;
 			buildPhases = (
-				41DA66C8261D27F1DD47FF8BA5427C9F /* Headers */,
-				3DEE4E6F5B78387D0ED296A18AA1D596 /* Sources */,
-				3C8A817041C4CD4CD089849CE68A1436 /* Frameworks */,
-				69EF098AC3A9BBD8429CB02BF76E3EE7 /* Resources */,
+				1C860320EC8AE23F0A5AC0033ED5B7ED /* Headers */,
+				D8A0FB17B8FC4AB82E1176184E204877 /* Sources */,
+				A31D2738637751667BE997C4E2197B1F /* Frameworks */,
+				64D58D74A31188E06CE3AB48D2850830 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				785F2D36CC9267A55F74B13DACF2DBF6 /* PBXTargetDependency */,
 			);
 			name = BaiduMapEmbedSdk;
 			productName = BaiduMapEmbedSdk;
@@ -345,12 +438,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				A24D87D735221325EFF6A6E9200E00E7 /* PBXTargetDependency */,
+				B5D87FD54B17DC641A7A7581F8EBB6AF /* PBXTargetDependency */,
 			);
 			name = "Pods-BaiduMapEmbedSdk_Tests";
 			productName = "Pods-BaiduMapEmbedSdk_Tests";
 			productReference = B75A8397B90CB24B0BBF3502EDEC33EC /* Pods_BaiduMapEmbedSdk_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		EEAD111821C8746D60F46BAA686C7D41 /* BaiduMapEmbedSdk-BaiduMapEmbedSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77EAC99FC5DA4F63E0D7D9E1D2B0E9E9 /* Build configuration list for PBXNativeTarget "BaiduMapEmbedSdk-BaiduMapEmbedSdk" */;
+			buildPhases = (
+				F6E40C220295B4D558A057A73BCF4070 /* Sources */,
+				0CE76D0355DF03B099047B6392F02F6C /* Frameworks */,
+				33E616C20EF493E34DBA36B47E9DC50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BaiduMapEmbedSdk-BaiduMapEmbedSdk";
+			productName = "BaiduMapEmbedSdk-BaiduMapEmbedSdk";
+			productReference = E76C81DA85D3BB9856CABD9B3AF96F39 /* BaiduMapEmbedSdk.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -370,11 +480,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 648291F3DEF0F113A96897CC26C98C65 /* Products */;
+			productRefGroup = 4E04F9670A170933957EA224BEAFA43E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				62224BA772207418D96CF265A51A9DFF /* BaiduMapEmbedSdk */,
+				EEAD111821C8746D60F46BAA686C7D41 /* BaiduMapEmbedSdk-BaiduMapEmbedSdk */,
 				46F210566B258F29F0912585554FA9B5 /* Pods-BaiduMapEmbedSdk_Example */,
 				69B6C1F7E60DA444A5B34349ECD1B568 /* Pods-BaiduMapEmbedSdk_Tests */,
 			);
@@ -396,14 +507,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69EF098AC3A9BBD8429CB02BF76E3EE7 /* Resources */ = {
+		33E616C20EF493E34DBA36B47E9DC50A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CB22FEABCB6FFFDEF80CBA9A5A4C41 /* mapapi.bundle in Resources */,
-				B995E1B695465EF19AC76FE013007176 /* MKCustomUserView.xib in Resources */,
-				0D8A5911C75F4E246EDCE44CFC7E7BEC /* take_pic_btn@2x.png in Resources */,
-				C7699621EABE3E769A4935E8E4056523 /* take_pic_btn@3x.png in Resources */,
+				D36C048FFEDD1A537B1A0A339178E105 /* AMap.bundle in Resources */,
+				6971C49A5347B37ABA1EE7E91237754C /* MKCustomUserCell.xib in Resources */,
+				AD97ABB17F29EB368358B05256B99D9F /* slider@2x.png in Resources */,
+				A976DD240356A0E5659DE83FE0797B96 /* slider@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D58D74A31188E06CE3AB48D2850830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B5EF0657B78713E0FDD8C0194E9D8A /* BaiduMapEmbedSdk.bundle in Resources */,
+				DD6C164AD22DB67E43CBBE0B7CA3D23B /* mapapi.bundle in Resources */,
+				61A025D964B930049720E66102650A11 /* MKCustomUserView.xib in Resources */,
+				78E2979635CB8E3AB0163C414D022943 /* take_pic_btn@2x.png in Resources */,
+				09857CDC564D7E7FE398F25BD4997290 /* take_pic_btn@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,18 +541,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DEE4E6F5B78387D0ED296A18AA1D596 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CBEFA229E2B7E6D18D9B7777646C21 /* BaiduMapEmbedSdk-dummy.m in Sources */,
-				53460F7B55780323F3DC23AFE7067043 /* BaiduMapSdkTest.m in Sources */,
-				8EB430BC95EAE57753DDEB078177BABA /* libssl.a in Sources */,
-				4CE3D764D0C7BA217FEF0CF268D3677F /* MKCustomUserCell.m in Sources */,
-				17C931591C84BD5DE34F1A9FD70CAA09 /* MKCustomUserView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE025BA315881AB135935C94DF359DAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,20 +549,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8A0FB17B8FC4AB82E1176184E204877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EDF05143CBD6BBAC09FF528C6D139C /* BaiduMapEmbedSdk-dummy.m in Sources */,
+				4F5536100A6DA82B2D58B2E8573EF6B4 /* BaiduMapSdkTest.m in Sources */,
+				7C8DAD02DA0E1AB6F0F7BB9288E6D63F /* MKCustomUserCell.m in Sources */,
+				373F4AAB5516C5B07ADC4251FC7021EC /* MKCustomUserView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E40C220295B4D558A057A73BCF4070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A24D87D735221325EFF6A6E9200E00E7 /* PBXTargetDependency */ = {
+		785F2D36CC9267A55F74B13DACF2DBF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-BaiduMapEmbedSdk_Example";
-			target = 46F210566B258F29F0912585554FA9B5 /* Pods-BaiduMapEmbedSdk_Example */;
-			targetProxy = 9D447D6D8E4E3230D7581EAC7300AD3A /* PBXContainerItemProxy */;
+			name = "BaiduMapEmbedSdk-BaiduMapEmbedSdk";
+			target = EEAD111821C8746D60F46BAA686C7D41 /* BaiduMapEmbedSdk-BaiduMapEmbedSdk */;
+			targetProxy = 8D9C81AE4D5C24A4EC82A91BC4741BFC /* PBXContainerItemProxy */;
 		};
-		C83ACDDB1B5D2E3F4AC7541064A7133D /* PBXTargetDependency */ = {
+		B5A4D3B5DBCEC640C36BAE235194E0F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BaiduMapEmbedSdk;
 			target = 62224BA772207418D96CF265A51A9DFF /* BaiduMapEmbedSdk */;
-			targetProxy = 2AB26915413BB0B35FB156FAD269899F /* PBXContainerItemProxy */;
+			targetProxy = 26CDA6B33E835BF7E6F077A4F514C024 /* PBXContainerItemProxy */;
+		};
+		B5D87FD54B17DC641A7A7581F8EBB6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BaiduMapEmbedSdk_Example";
+			target = 46F210566B258F29F0912585554FA9B5 /* Pods-BaiduMapEmbedSdk_Example */;
+			targetProxy = D92779790D14B1A1967E51FBB7BCF432 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -555,6 +690,37 @@
 			};
 			name = Release;
 		};
+		4534EE570CE31E2B17A9B87A2B36DA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D40BD4327DC3DB98858BF0A4E292553 /* BaiduMapEmbedSdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BaiduMapEmbedSdk/BaiduMapEmbedSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BaiduMapEmbedSdk/BaiduMapEmbedSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BaiduMapEmbedSdk/BaiduMapEmbedSdk.modulemap";
+				PRODUCT_MODULE_NAME = BaiduMapEmbedSdk;
+				PRODUCT_NAME = BaiduMapEmbedSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5D72B746D0BCF79A811910F1A14DB0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65D5D9EB79D000FBA9BD038DF157F4C8 /* Pods-BaiduMapEmbedSdk_Example.debug.xcconfig */;
@@ -587,33 +753,19 @@
 			};
 			name = Debug;
 		};
-		61198783A47F0B2AEAC04C3CB7A362AA /* Debug */ = {
+		A20C40312462D2C5104DA2D53E02C897 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DEF8D19F261A632907D4CE1C7802B0 /* BaiduMapEmbedSdk.debug.xcconfig */;
+			baseConfigurationReference = 988C7A6184B3131FCAD5F9B65074596F /* BaiduMapEmbedSdk.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BaiduMapEmbedSdk/BaiduMapEmbedSdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BaiduMapEmbedSdk/BaiduMapEmbedSdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BaiduMapEmbedSdk";
+				IBSC_MODULE = BaiduMapEmbedSdk;
+				INFOPLIST_FILE = "Target Support Files/BaiduMapEmbedSdk/ResourceBundle-BaiduMapEmbedSdk-BaiduMapEmbedSdk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BaiduMapEmbedSdk/BaiduMapEmbedSdk.modulemap";
-				PRODUCT_MODULE_NAME = BaiduMapEmbedSdk;
 				PRODUCT_NAME = BaiduMapEmbedSdk;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -672,16 +824,15 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CA5F697120EB9B194BE9BC7455C0C8C6 /* Release */ = {
+		D31BDA5753E7A96FB6B484C374728968 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD55A5C65E1DB4D20F3E400D196362A /* BaiduMapEmbedSdk.release.xcconfig */;
+			baseConfigurationReference = 988C7A6184B3131FCAD5F9B65074596F /* BaiduMapEmbedSdk.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -704,9 +855,24 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE9598E2B73CAB495E3D25A1750FF54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D40BD4327DC3DB98858BF0A4E292553 /* BaiduMapEmbedSdk.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BaiduMapEmbedSdk";
+				IBSC_MODULE = BaiduMapEmbedSdk;
+				INFOPLIST_FILE = "Target Support Files/BaiduMapEmbedSdk/ResourceBundle-BaiduMapEmbedSdk-BaiduMapEmbedSdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BaiduMapEmbedSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -796,11 +962,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0D08E72AB22AEB281BDB1B6B7A97E6C /* Build configuration list for PBXNativeTarget "BaiduMapEmbedSdk" */ = {
+		77EAC99FC5DA4F63E0D7D9E1D2B0E9E9 /* Build configuration list for PBXNativeTarget "BaiduMapEmbedSdk-BaiduMapEmbedSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61198783A47F0B2AEAC04C3CB7A362AA /* Debug */,
-				CA5F697120EB9B194BE9BC7455C0C8C6 /* Release */,
+				A20C40312462D2C5104DA2D53E02C897 /* Debug */,
+				DE9598E2B73CAB495E3D25A1750FF54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -810,6 +976,15 @@
 			buildConfigurations = (
 				EB4C7695FA5783A95788256E80D03D40 /* Debug */,
 				293ECF69F4142DBA75F8B0BB5F5B593C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61FC692055D9309F4319BCB4B1FDF27 /* Build configuration list for PBXNativeTarget "BaiduMapEmbedSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31BDA5753E7A96FB6B484C374728968 /* Debug */,
+				4534EE570CE31E2B17A9B87A2B36DA47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

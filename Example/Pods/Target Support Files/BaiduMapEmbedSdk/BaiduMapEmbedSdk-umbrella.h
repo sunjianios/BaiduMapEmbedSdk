@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BaiduMapEmbedSdk.h"
 #import "BaiduMapSdkTest.h"
 #import "MKCustomUserCell.h"
 #import "MKCustomUserView.h"

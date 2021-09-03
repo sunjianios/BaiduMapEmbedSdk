@@ -20,7 +20,35 @@
   },
   "source_files": "BaiduMapEmbedSdk/Classes/*",
   "public_header_files": "BaiduMapEmbedSdk/Classes/*.h",
+  "resource_bundles": {
+    "BaiduMapEmbedSdk": [
+      "BaiduMapEmbedSdk/Assets/*"
+    ]
+  },
   "resources": "BaiduMapEmbedSdk/Assets2/*",
-  "vendored_frameworks": "BaiduMapEmbedSdk/Classes/*.framework",
-  "vendored_libraries": "BaiduMapEmbedSdk/Classes/*.a"
+  "frameworks": [
+    "UIKit",
+    "AdSupport",
+    "QuartzCore",
+    "OpenGLES",
+    "MessageUI",
+    "Accelerate",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "CoreTelephony",
+    "CoreLocation",
+    "Security",
+    "AssetsLibrary",
+    "CoreGraphics",
+    "ExternalAccessory"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "sqlite3"
+  ],
+  "ios": {
+    "vendored_frameworks": "BaiduMapEmbedSdk/Library/*.{framework}",
+    "vendored_libraries": "BaiduMapEmbedSdk/Library/*.{a}"
+  }
 }

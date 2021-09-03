@@ -1,9 +1,9 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/BaiduMapEmbedSdk
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../BaiduMapEmbedSdk/Classes"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../BaiduMapEmbedSdk/Library"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../BaiduMapEmbedSdk/Classes"
-OTHER_LDFLAGS = $(inherited) -l"ssl" -framework "BaiduMapAPI_Base"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../BaiduMapEmbedSdk/Library"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"crypto" -l"sqlite3" -l"ssl" -l"z" -framework "Accelerate" -framework "AdSupport" -framework "AssetsLibrary" -framework "BaiduMapAPI_Base" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "ExternalAccessory" -framework "MessageUI" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

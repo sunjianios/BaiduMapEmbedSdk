@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'BaiduMapEmbedSdk_Example' do
   pod 'BaiduMapEmbedSdk', :path => '../'
-
+  
   target 'BaiduMapEmbedSdk_Tests' do
     inherit! :search_paths
 

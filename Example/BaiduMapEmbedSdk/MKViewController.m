@@ -7,9 +7,12 @@
 //
 
 #import "MKViewController.h"
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
 
 @interface MKViewController ()
-
+{
+    BMKUserLocation *local;
+}
 @end
 
 @implementation MKViewController

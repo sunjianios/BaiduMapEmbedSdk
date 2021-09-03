@@ -1,10 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BaiduMapEmbedSdk" "${PODS_ROOT}/../../BaiduMapEmbedSdk/Classes"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BaiduMapEmbedSdk" "${PODS_ROOT}/../../BaiduMapEmbedSdk/Library"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BaiduMapEmbedSdk/BaiduMapEmbedSdk.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../BaiduMapEmbedSdk/Classes"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "BaiduMapEmbedSdk"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../BaiduMapEmbedSdk/Library"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"z" -framework "Accelerate" -framework "AdSupport" -framework "AssetsLibrary" -framework "BaiduMapEmbedSdk" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "ExternalAccessory" -framework "MessageUI" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
